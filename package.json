@@ -1,0 +1,18 @@
+{
+  "name": "regirobot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chromedriver": "^2.32.3",
+    "csv-streamify": "^3.0.4",
+    "fs": "0.0.1-security",
+    "webdriverio": "^4.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
