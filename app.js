@@ -43,9 +43,9 @@ const opts = {
 //YSDT 註冊
 function startRegi(ePhone) {
     (async() => {
-        var passWordStr = 'ysdt' + ePhone.substr(-4);
+        var passWordStr = 'YsDt' + ePhone.substr(-4);
         var browser = webdriverio.remote(opts).init();
-
+console.log('pwd is ' + passWordStr);
         await browser.url(targetUrl);
         await browser.setValue('input[id="account"]', ePhone);
         await browser.setValue('input[id="password"]', passWordStr);
